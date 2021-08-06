@@ -1,0 +1,36 @@
+@use 'variable' as var;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //? 1rem = 10px
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var.$grey-dark-2;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right bottom,
+    var.$primary-light,
+    var.$primary-dark
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+
+//   ::selection {
+//     background-color: var.$color-primary;
+//     color: var.$color-white;
+//   }
