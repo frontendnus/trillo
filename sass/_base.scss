@@ -19,15 +19,9 @@ body {
   line-height: 1.6;
   color: var.$grey-dark-2;
   box-sizing: border-box;
-  background-image: linear-gradient(
-    to right bottom,
-    var.$primary-light,
-    var.$primary-dark
-  );
+  background-image: linear-gradient(to right bottom, var.$primary-light, var.$primary-dark);
   background-size: cover;
   background-repeat: no-repeat;
-
-  min-height: 100vh;
 }
 
 //   ::selection {
