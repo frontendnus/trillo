@@ -22,7 +22,6 @@ body {
   background-image: linear-gradient(to right bottom, #ff3366, #ba265d);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .logo {
