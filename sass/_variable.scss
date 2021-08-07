@@ -21,3 +21,10 @@ $light-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 $light-weight: 300;
 $regular-weight: 400;
 $bold-weight: 600;
+
+// ! BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
